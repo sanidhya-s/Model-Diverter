@@ -1,0 +1,106 @@
+{
+    "GPT_5": {
+        "categories": [
+            "CODING",
+            "DATA_ANALYTICS",
+            "MATHEMATICS",
+            "BUSINESS",
+            "EDUCATION",
+            "PERSONAL_ASSISTANCE"
+        ],
+        "strengths": [
+            "CODE_GENERATION",
+            "DEBUGGING",
+            "REASONING",
+            "MATH_SOLVING",
+            "TOOL_CALLING",
+            "STRUCTURED_OUTPUT"
+        ]
+    },
+
+    "CLAUDE_SONNET": {
+        "categories": [
+            "CODING",
+            "WRITING",
+            "RESEARCH",
+            "DOCUMENTS",
+            "BUSINESS"
+        ],
+        "strengths": [
+            "LONG_CONTEXT",
+            "DOCUMENT_ANALYSIS",
+            "SUMMARIZATION",
+            "TECHNICAL_WRITING",
+            "CODE_REVIEW"
+        ]
+    },
+
+    "GEMINI_2_5_PRO": {
+        "categories": [
+            "MULTIMEDIA",
+            "DOCUMENTS",
+            "RESEARCH",
+            "EDUCATION",
+            "SPECIALIZED"
+        ],
+        "strengths": [
+            "MULTIMODAL_UNDERSTANDING",
+            "IMAGE_UNDERSTANDING",
+            "OCR",
+            "VIDEO_PROCESSING",
+            "WEB_SEARCH"
+        ]
+    },
+
+    "GEMINI_2_5_FLASH": {
+        "categories": [
+            "PERSONAL_ASSISTANCE",
+            "GENERAL_CHAT",
+            "EDUCATION"
+        ],
+        "strengths": [
+            "FAST_RESPONSE",
+            "LOW_COST"
+        ]
+    },
+
+    "DEEPSEEK_R1": {
+        "categories": [
+            "CODING",
+            "MATHEMATICS",
+            "DATA_ANALYTICS"
+        ],
+        "strengths": [
+            "REASONING",
+            "ALGORITHM_DESIGN",
+            "COMPETITIVE_PROGRAMMING",
+            "MATH_SOLVING"
+        ]
+    },
+
+    "LLAMA_4": {
+        "categories": [
+            "PERSONAL_ASSISTANCE",
+            "WRITING",
+            "EDUCATION"
+        ],
+        "strengths": [
+            "LOCAL_DEPLOYMENT",
+            "LOW_COST",
+            "PRIVACY"
+        ]
+    },
+
+    "GROK_4": {
+        "categories": [
+            "RESEARCH",
+            "SPECIALIZED",
+            "SPORTS",
+            "FINANCE_INVESTING"
+        ],
+        "strengths": [
+            "REAL_TIME_INFORMATION",
+            "WEB_SEARCH"
+        ]
+    }
+}
