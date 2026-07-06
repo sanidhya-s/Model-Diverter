@@ -323,6 +323,11 @@ for task in tasks:
 # Step 3 - Execute Sequentially
 # =====================================================
 
+docs_dir = Path("Docs")
+docs_dir.mkdir(exist_ok=True)
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+all_saved_files: list[str] = []
+
 results = []
 
 print("\n" + "=" * 80)
@@ -343,10 +348,18 @@ for index, task in enumerate(tasks, start=1):
 
             result = execute_task(
                 task,
-                task["model"]
+                task["model"],
+                docs_dir=docs_dir,
+                file_prefix=f"{timestamp}_task{task['taskId']}",
             )
 
             results.append(result)
+
+            if result.get("saved_files"):
+                all_saved_files.extend(result["saved_files"])
+                print("✓ Files saved:")
+                for saved_file in result["saved_files"]:
+                    print(f"  - {saved_file}")
 
             print("✓ Success")
 
@@ -434,21 +447,28 @@ print("\nSynthesizing final response...\n")
 
 try:
 
-    final_answer = synthesize(results)
+    final_answer, synthesis_files = synthesize(
+        results,
+        docs_dir=docs_dir,
+        file_prefix=f"{timestamp}_synthesis",
+        user_prompt=user_prompt,
+    )
+    all_saved_files.extend(synthesis_files)
 
     print("\n" + "=" * 80)
     print("FINAL ANSWER")
     print("=" * 80)
     print(final_answer)
 
+    if synthesis_files:
+        print("\nSynthesis files saved:")
+        for saved_file in synthesis_files:
+            print(f"  - {saved_file}")
+
     # =====================================================
     # Save response to Docs folder
     # =====================================================
 
-    docs_dir = Path("Docs")
-    docs_dir.mkdir(exist_ok=True)
-
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     file_path = docs_dir / f"{timestamp}.txt"
 
     with open(file_path, "w", encoding="utf-8") as file:
@@ -472,7 +492,18 @@ try:
         file.write("=" * 80 + "\n")
         file.write(final_answer)
 
+        if all_saved_files:
+            file.write("\n\nDownloaded Files\n")
+            file.write("=" * 80 + "\n")
+            for saved_file in all_saved_files:
+                file.write(f"{saved_file}\n")
+
     print(f"\nResponse saved to:\n{file_path.resolve()}")
+
+    if all_saved_files:
+        print("\nAll downloaded files:")
+        for saved_file in all_saved_files:
+            print(f"  - {saved_file}")
 
 except Exception as e:
 

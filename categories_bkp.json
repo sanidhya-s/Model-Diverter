@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "id": "CODING",
+      "name": "Coding & Software Engineering",
+      "subCategories": [
+        "CODE_GENERATION",
+        "CODE_EXPLANATION",
+        "DEBUGGING",
+        "REFACTORING",
+        "SYSTEM_DESIGN",
+        "API_DEVELOPMENT",
+        "DATABASE_QUERIES",
+        "DEVOPS",
+        "SECURITY_REVIEW",
+        "TEST_GENERATION",
+        "CODE_REVIEW",
+        "ALGORITHM_DESIGN",
+        "MOBILE_DEVELOPMENT",
+        "WEB_DEVELOPMENT",
+        "DESKTOP_DEVELOPMENT"
+      ]
+    },
+    {
+      "id": "DATA_ANALYTICS",
+      "name": "Data & Analytics",
+      "subCategories": [
+        "DATA_ANALYSIS",
+        "SQL",
+        "STATISTICS",
+        "DATA_VISUALIZATION",
+        "DATA_ENGINEERING",
+        "MACHINE_LEARNING",
+        "DEEP_LEARNING",
+        "PREDICTIVE_MODELING",
+        "BUSINESS_INTELLIGENCE"
+      ]
+    },
+    {
+      "id": "MATHEMATICS",
+      "name": "Mathematics & Reasoning",
+      "subCategories": [
+        "ARITHMETIC",
+        "ALGEBRA",
+        "GEOMETRY",
+        "CALCULUS",
+        "LINEAR_ALGEBRA",
+        "PROBABILITY",
+        "DISCRETE_MATHEMATICS",
+        "LOGICAL_REASONING",
+        "COMPETITIVE_PROGRAMMING"
+      ]
+    },
+    {
+      "id": "WRITING",
+      "name": "Writing & Content Creation",
+      "subCategories": [
+        "CREATIVE_WRITING",
+        "BLOG_WRITING",
+        "COPYWRITING",
+        "EMAIL_DRAFTING",
+        "SOCIAL_MEDIA_CONTENT",
+        "SUMMARIZATION",
+        "TRANSLATION",
+        "GRAMMAR_CORRECTION",
+        "TECHNICAL_WRITING",
+        "SCRIPT_WRITING",
+        "STORYTELLING"
+      ]
+    },
+    {
+      "id": "RESEARCH",
+      "name": "Research & Knowledge",
+      "subCategories": [
+        "GENERAL_QA",
+        "WEB_RESEARCH",
+        "FACT_LOOKUP",
+        "COMPARISON",
+        "EXPLANATION",
+        "LITERATURE_REVIEW",
+        "SCIENTIFIC_RESEARCH",
+        "MARKET_RESEARCH"
+      ]
+    },
+    {
+      "id": "BUSINESS",
+      "name": "Business & Productivity",
+      "subCategories": [
+        "BUSINESS_STRATEGY",
+        "PRODUCT_MANAGEMENT",
+        "PROJECT_MANAGEMENT",
+        "FINANCE",
+        "MARKETING",
+        "SALES",
+        "HR",
+        "PRESENTATION_CREATION",
+        "SWOT_ANALYSIS",
+        "STARTUP_PLANNING"
+      ]
+    },
+    {
+      "id": "MEDICAL",
+      "name": "Medical & Healthcare",
+      "subCategories": [
+        "SYMPTOM_INFORMATION",
+        "MEDICAL_EDUCATION",
+        "DRUG_INFORMATION",
+        "FITNESS",
+        "NUTRITION",
+        "MENTAL_WELLNESS",
+        "MEDICAL_REPORT_ANALYSIS",
+        "FIRST_AID"
+      ]
+    },
+    {
+      "id": "LEGAL",
+      "name": "Legal & Compliance",
+      "subCategories": [
+        "LEGAL_INFORMATION",
+        "CONTRACT_REVIEW",
+        "POLICY_DRAFTING",
+        "REGULATORY_COMPLIANCE",
+        "TERMS_AND_CONDITIONS",
+        "PRIVACY_POLICY"
+      ]
+    },
+    {
+      "id": "EDUCATION",
+      "name": "Education & Learning",
+      "subCategories": [
+        "HOMEWORK_HELP",
+        "EXAM_PREPARATION",
+        "TUTORING",
+        "CAREER_GUIDANCE",
+        "INTERVIEW_PREPARATION",
+        "COURSE_CREATION"
+      ]
+    },
+    {
+      "id": "MULTIMEDIA",
+      "name": "Multimedia & Creative Generation",
+      "subCategories": [
+        "IMAGE_GENERATION",
+        "IMAGE_EDITING",
+        "IMAGE_ANALYSIS",
+        "VIDEO_GENERATION",
+        "VIDEO_ANALYSIS",
+        "AUDIO_GENERATION",
+        "SPEECH_TO_TEXT",
+        "TEXT_TO_SPEECH",
+        "MUSIC_GENERATION"
+      ]
+    },
+    {
+      "id": "DOCUMENTS",
+      "name": "Documents & Files",
+      "subCategories": [
+        "PDF_ANALYSIS",
+        "SPREADSHEET_ANALYSIS",
+        "OCR",
+        "RESUME_REVIEW",
+        "DOCUMENT_SUMMARIZATION",
+        "DOCUMENT_EXTRACTION",
+        "CONTRACT_ANALYSIS",
+        "TABLE_EXTRACTION"
+      ]
+    },
+    {
+      "id": "PERSONAL_ASSISTANCE",
+      "name": "Conversational & Personal Assistance",
+      "subCategories": [
+        "GENERAL_CHAT",
+        "RECOMMENDATIONS",
+        "PLANNING",
+        "BRAINSTORMING",
+        "PERSONAL_ADVICE",
+        "SCHEDULING",
+        "TRAVEL_PLANNING",
+        "SHOPPING_ASSISTANCE"
+      ]
+    },
+    {
+      "id": "SPECIALIZED",
+      "name": "Specialized Domains",
+      "subCategories": [
+        "FINANCE_INVESTING",
+        "SCIENCE",
+        "ENGINEERING",
+        "REAL_ESTATE",
+        "TRAVEL",
+        "ASTROLOGY",
+        "GAMING",
+        "SPORTS",
+        "AGRICULTURE"
+      ]
+    },
+    {
+      "id": "UNSAFE",
+      "name": "Unsafe or Restricted Requests",
+      "subCategories": [
+        "SELF_HARM",
+        "MALWARE",
+        "FRAUD",
+        "ILLEGAL_ACTIVITY",
+        "EXPLICIT_CONTENT",
+        "PRIVACY_VIOLATION",
+        "HATE_CONTENT"
+      ]
+    }
+  ],
+  "capabilities": [
+    "TEXT_GENERATION",
+    "CODE_GENERATION",
+    "CODE_EXECUTION",
+    "DEBUGGING",
+    "REASONING",
+    "LONG_CONTEXT",
+    "MULTIMODAL_UNDERSTANDING",
+    "IMAGE_UNDERSTANDING",
+    "IMAGE_GENERATION",
+    "IMAGE_EDITING",
+    "DOCUMENT_ANALYSIS",
+    "OCR",
+    "WEB_SEARCH",
+    "REAL_TIME_INFORMATION",
+    "MATH_SOLVING",
+    "DATA_ANALYSIS",
+    "FILE_PROCESSING",
+    "SUMMARIZATION",
+    "TRANSLATION",
+    "TOOL_CALLING",
+    "STRUCTURED_OUTPUT",
+    "FUNCTION_CALLING",
+    "JSON_GENERATION",
+    "TABLE_EXTRACTION",
+    "CREATIVE_WRITING",
+    "VOICE_PROCESSING",
+    "VIDEO_PROCESSING"
+  ]
+}
